@@ -1,13 +1,9 @@
 <div align="center">
 
-<img src="https://img.shields.io/badge/Manga-Nyaa%20Monitor-2f80ed?style=for-the-badge&logo=discord&logoColor=white" alt="Manga Nyaa Monitor"/>
 
-# 📖 Manga Nyaa Monitor
+# Manga Nyaa Monitor
 
 **Watches nyaa.si and pings your Discord the second a new chapter drops.**
-
-![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=flat-square&logo=node.js&logoColor=white)
-![discord.js](https://img.shields.io/badge/discord.js-v14-5865F2?style=flat-square&logo=discord&logoColor=white)
 
 </div>
 
