@@ -9,7 +9,7 @@
 
 ---
 
-You tell it what manga to watch, it tells you when there is a new chapter. The bot pings you when a new chapter for the series you want is uploaded.
+You tell it what series to look out for, it tells you when there is a new chapter. The bot pings you when a new chapter for the series you want is uploaded.
 ---
 
 ## Commands
