@@ -9,8 +9,7 @@
 
 ---
 
-You tell it what manga to watch, it tells you when there is a new chapter. The bot pings `@everyone` the moment something shows up, then goes quiet until the next one. (You can also change it to only a personal ping if needs be)
-
+You tell it what manga to watch, it tells you when there is a new chapter. The bot pings you when a new chapter for the series you want is uploaded.
 ---
 
 ## Commands
