@@ -3,13 +3,13 @@
 
 # Manga Nyaa Monitor
 
-**Watches nyaa.si and pings your Discord the second a new chapter drops.**
+**Watches nyaa.si and pings you on Discord the second a new chapter drops.**
 
 </div>
 
 ---
 
-You tell it what manga to watch. It handles the rest. No more refreshing nyaa waiting for a chapter — the bot pings `@everyone` the moment something shows up, then goes quiet until the next one. Multiple groups uploading the same chapter? Still only one ping. It's not stupid.
+You tell it what manga to watch, it tells you when there is a new chapter. The bot pings `@everyone` the moment something shows up, then goes quiet until the next one. (You can also change it to only a personal ping if needs be)
 
 ---
 
