@@ -1,0 +1,18 @@
+{
+  "name": "manga-nyaa-bot",
+  "version": "1.0.0",
+  "description": "Discord bot that monitors nyaa.si and announces new manga chapter uploads",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "rss-parser": "^3.13.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
