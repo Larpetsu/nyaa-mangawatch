@@ -1,0 +1,68 @@
+<div align="center">
+
+<img src="https://img.shields.io/badge/Manga-Nyaa%20Monitor-2f80ed?style=for-the-badge&logo=discord&logoColor=white" alt="Manga Nyaa Monitor"/>
+
+# 📖 Manga Nyaa Monitor
+
+**Watches nyaa.si and pings your Discord the second a new chapter drops.**
+
+![Node.js](https://img.shields.io/badge/Node.js-18%2B-339933?style=flat-square&logo=node.js&logoColor=white)
+![discord.js](https://img.shields.io/badge/discord.js-v14-5865F2?style=flat-square&logo=discord&logoColor=white)
+
+</div>
+
+---
+
+You tell it what manga to watch. It handles the rest. No more refreshing nyaa waiting for a chapter — the bot pings `@everyone` the moment something shows up, then goes quiet until the next one. Multiple groups uploading the same chapter? Still only one ping. It's not stupid.
+
+---
+
+## Commands
+
+| Command | What it does |
+|---|---|
+| `/watch One Piece` | Add a manga to the watchlist |
+| `/unwatch One Piece` | Remove it |
+| `/watchlist` | See everything you're tracking |
+
+---
+
+## Setup
+
+```bash
+git clone https://github.com/yourusername/manga-nyaa-bot.git
+cd manga-nyaa-bot
+npm install
+cp .env.example .env   # fill in your token, client ID, and channel ID
+npm start
+```
+
+Three values go in your `.env`:
+
+```env
+DISCORD_TOKEN=        # bot token from the Developer Portal
+DISCORD_CLIENT_ID=    # your app's client ID, also in the Portal
+DISCORD_CHANNEL_ID=   # right-click a channel in Discord → Copy Channel ID
+```
+
+When inviting the bot, make sure your OAuth2 URL includes both the `bot` and `applications.commands` scopes, otherwise slash commands won't show up.
+
+---
+
+## Docker
+
+```bash
+docker build -t manga-nyaa-bot .
+docker run -d --restart unless-stopped --env-file .env \
+  -v $(pwd)/state.json:/app/state.json manga-nyaa-bot
+```
+
+Mount `state.json` or it'll forget your watchlist every restart.
+
+---
+
+<div align="center">
+
+*For every chapter you nearly missed because you forgot to check.*
+
+</div>
