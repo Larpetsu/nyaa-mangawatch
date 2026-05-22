@@ -16,8 +16,8 @@ You tell it what manga to watch, it tells you when there is a new chapter. The b
 
 | Command | What it does |
 |---|---|
-| `/watch One Piece` | Add a manga to the watchlist |
-| `/unwatch One Piece` | Remove it |
+| `/watch {series}` | Add a manga to the watchlist |
+| `/unwatch {series}` | Remove it |
 | `/watchlist` | See everything you're tracking |
 
 ---
