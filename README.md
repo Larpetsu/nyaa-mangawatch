@@ -58,6 +58,6 @@ Mount `state.json` or it'll forget your watchlist every restart.
 
 <div align="center">
 
-*For every chapter you nearly missed because you forgot to check.*
+
 
 </div>
